@@ -1,0 +1,426 @@
+ * {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+
+body{
+    width: 100%;
+    background: rgb(219, 219, 219);
+    float: right; 
+}
+
+header {
+    width: 100%; height: 70px;
+    background: rgb(70,70,60,45%);   
+    border: solid 3px white;    
+}
+
+.header-login{
+    width: 100%;    
+    margin:0px; 
+    display: inline-block;
+    float:left;
+    color:aliceblue;    
+    border-color: black;
+    border-radius: 15px
+}
+
+#header-image{
+    width: 60px;
+    height: 60px;
+    float:right;
+    display: inline-block;
+    border:solid 2px white;
+    margin:0px 10px 0px 0px;
+    border-radius: 15px;
+}
+
+.navbar{
+    width: 100px;
+    height: 20px;
+     float:right;
+    margin:0px 10px 0px 0px;
+    border-radius: 15px;    
+}
+
+.content{
+    width: 90%; 
+    color:black;
+    background: rgb(219, 219, 219);
+    float: right;   
+}
+
+#photo-aside-01{
+    width: 60%;
+    height: 60%;
+    margin: 10px 10px 10px 10px;
+    border:solid white 2px;
+    border-radius: 15px;
+}
+
+#photo-aside-02{
+    width: 60%;
+    height: 60%;
+    margin: 10px 10px 10px 10px;
+    border:solid white 2px;
+    border-radius: 15px;
+}
+
+#photo-aside-03{
+    width: 60%;
+    height: 60%;
+    margin: 10px 10px 10px 10px;
+    border:solid white 2px;
+    border-radius: 15px;
+}
+
+h1{
+    font-size: 30px;
+    float:left;
+    position: relative;
+    margin: 0px;    
+    color:azure;
+}
+
+
+footer{
+    width: 100%;
+    height: 80px;    
+    background:#17202A ; 
+    clear:right;
+    
+    
+}
+
+.section-footer{
+    width:200px;
+    height: 60px;    
+    border-radius: 15px;
+    margin:10px;
+    position: relative;
+    float:right;
+}
+
+.redes-sociales{
+    width:20%;        
+    border-radius: 15px;
+    margin:10px;
+    position: relative;
+    float:right;
+}
+
+.redes-sociales:hover{
+    background:#9BD0FB;
+}
+
+h2{
+    font-family:serif;
+    font-size: 30px;   
+}
+
+/*MENU 00*/
+.section-001{    
+    width:20%;        
+    display: inline-block;    
+    margin:10px
+    
+}
+
+.section-002{
+    width:20%;    
+    display: inline-block;    
+    margin:10px;
+    
+}
+
+.section-003{
+    width:20%;    
+    display: inline-block;    
+    margin:10px;
+}
+
+.section-004{
+    width:20%; 
+    display: inline-block;    
+    margin:10px;
+}
+
+#photo-section-001{
+    width: 100%;    
+    border:solid white;
+    margin:10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+}
+
+#photo-section-002{
+    width: 100%;        
+    border:solid white;
+    margin:10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+}
+
+#photo-section-003{
+    width: 100%; 
+       
+    border:solid white;
+    margin:10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+}
+
+#photo-section-004{
+    width: 100%;        
+    border:solid white;
+    margin:10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+}
+
+
+.button-menu{
+    width:100%;
+    text-align: center;
+    padding:1px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    background: #34495E;
+    border: solid white 3px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+}
+
+.button-menu:hover, .button-go-back:hover {
+  background-color: #9BD0FB;   
+    
+}
+
+
+/*---------*/
+
+/* SECTION 01*/
+.section-01{
+    width: 90%;
+    margin: 10px;
+}
+
+.section-02{
+    width:45%;
+    margin:10px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.section-03{
+    margin: 10px 10px 0px 10px;
+    display:inline-block;
+    width:45%;
+}
+
+.section-04{
+    width:30%;
+    height:25%;
+    display:inline-block;    
+    margin: 10px;
+    text-align: center;
+}
+
+.section-05{    
+    display:inline-block;
+    width:60%;
+    height:25%;        
+    float:right;
+}
+
+
+#video-imposible{
+    width:40%;    
+    margin: 10px;
+    border: solid 5px white; 
+    border-radius: 5px;
+}
+
+hr{
+    width: 300px;
+    height: 2px;    
+    background-color:dimgray;
+    border color:beige;
+}
+
+.section-button{
+    width:100%; 
+    height:45%;     
+    float:right;
+}
+
+.button-go-back{
+    color: white;
+    font-size: 20px;
+    margin:10px;    
+    padding: 10px;
+    text-decoration: none;    
+    background: #34495E;
+    border: solid white 3px;
+    border-radius: 15px;
+    float:right;    
+}
+/*-----------*/
+
+
+/*SECTION 02 03 04*/
+.section-11, .section-31, .section-41{
+    width: 45%;
+    height:45%;
+    display: inline-block;
+    margin: 10px;
+    float:left;
+}
+
+.section-12, .section-32,.section-42{
+    width:45%; 
+    height:45%;
+    display: inline-block; 
+    float:right;
+}
+
+#photo-section-02{
+    width: 40%;    
+    border:solid white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#photo-section-03{
+    width: 60%;    
+    border:solid white;
+    margin:10px;
+    border-radius: 10px;
+}
+
+#photo-section-04{
+    width: 60%;    
+    border:solid white;
+    margin:10px; 
+    border-radius: 10px;
+    
+}
+
+/*----------------*/
+
+
+
+/*SECTION 05 INICIO DE SESION*/
+
+h4{
+    font-size:20px;
+    color:dimgray;
+}
+
+.section-51{
+    width:50%;
+    height:100%;
+    background: beige;
+    text-align: center;    
+    border: solid 5px white;
+    border-radius: 15px;    
+    margin:10px; 
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+        
+}
+
+#photo-section-51{
+    width:20%;    
+    border: solid 3px white;
+    border-radius: 15px;
+}
+
+input{
+    text-align: center;
+    margin:5px;
+    border-radius: 15px;    
+}
+
+input:hover, .section-51 a:hover{
+    background-color: #DED6C3;   
+}
+
+.section-51 input{
+    width:70%;
+    font-size: 100%;
+}
+
+.section-51 button{
+    width:20%;    
+    margin:10px;
+    color:aliceblue;
+    background-color: darkseagreen;
+    border-color: black;
+    border-radius: 15px;
+}
+
+.section-51 button:hover{
+    background: #84F9C5;
+}
+
+.section-51 a{    
+    color:dimgray;   
+}
+
+/*-------------*/
+
+/*SECTION 06 REGISTRO*/
+
+.section-61{
+    width:50%;
+    height:100%;
+    background: beige;
+    text-align: center;    
+    border: solid 5px white;
+    border-radius: 15px;    
+    margin:20px; 
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+}
+
+.send-sesion{
+    width: 30%;    
+    margin:10px;
+    color:aliceblue;
+    background-color: darkseagreen;
+    border-color: black;
+    border-radius: 15px
+}
+
+.section-61 div input{
+    width: 30%;    
+    margin:10px;
+    color:aliceblue;
+    background-color: darkseagreen;
+    border-color: black;
+    border-radius: 15px;
+}
+    
+.section-61 div input:hover, .send-sesion:hover{
+    background: #84F9C5;
+    
+}
+
+
+
+
+
+
+
+

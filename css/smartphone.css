@@ -1,0 +1,320 @@
+
+@media all and (max-width: 699px) and (min-width: 40px) {
+    @media all and (orientation:portrait){ 
+    
+     
+    
+    .content{
+        width:100%;
+        
+    }
+    
+    /* SECTION 01*/
+    .section-01{
+        width: 90%;
+        margin: 10px;
+    }
+
+    .section-02{
+        width:42%;
+        margin:5px;    
+    }
+
+    .section-03{
+        margin: 5px 5px 0px 5px;
+        width:42%;
+    }
+
+    .section-04{
+        width:100%;
+        height:25%;
+        
+    }
+
+    .section-05{    
+        width:100%;
+        height:25%;        
+    }
+
+
+    #video-imposible{
+        width:80%;    
+        
+    }
+
+    hr{
+        display: none;
+    }    
+    
+    
+    h1 {
+        font-size: 15px;
+    }
+
+    .section-001, .section-002, .section-003, .section-004{    
+        width:40%;
+        margin:30px 10px 30px 10px;    
+    }
+    
+    .section-51, .section-61{    
+    width:80%;
+    margin:10px;    
+    }
+    
+    .section-51, .section-61{    
+        width:80%;        
+        margin:10px;    
+    }   
+
+    .section-51 button{
+        font-size: 1em;
+        width:30%;    
+        margin:10px;
+        color:aliceblue;
+        background-color: darkseagreen;
+        border-color: black;
+        border-radius: 15px;
+    }
+    
+    
+    .navbar{
+        width: 50px;
+        height: 20px;
+        float:right;
+        margin:0px 10px 0px 0px;
+        border-radius: 15px;    
+    }
+    
+    #photo-section-02, #photo-section-03, #photo-section-04{
+        width: 80%;    
+        
+    }
+    
+     
+    
+   
+    
+}
+
+   
+
+
+
+@media all and (max-width: 699px) and (min-width: 40px) {
+    @media all and (orientation:landscape){
+        body{
+            width: 100%;
+        }
+        .content{
+            width: 100%;
+            background: #C8DEC3;
+        }
+    }
+}
+
+
+
+
+
+
+
+    
+/*
+header {
+    width: 100%; height: 70px;
+    background: rgb(70,70,60,45%);   
+    border: solid 3px white;    
+}
+
+.header-login{
+    width: 100%;    
+    margin:0px; 
+    display: inline-block;
+    float:left;
+    color:aliceblue;    
+    border-color: black;
+    border-radius: 15px
+}
+
+#header-image{
+    width: 60px;
+    height: 60px;
+    float:right;
+    display: inline-block;
+    border:solid 2px white;
+    margin:0px 10px 0px 0px;
+    border-radius: 15px;
+}
+
+.navbar{
+    width: 100px;
+    height: 20px;
+     float:right;
+    margin:0px 10px 0px 0px;
+    border-radius: 15px;    
+}
+
+.content{
+    width: 85%;    
+    background: rgb(219, 219, 219);
+    float: right;   
+}
+
+
+aside {
+    width: 15%;
+    height:500px;
+    background: rgb(52, 73, 94);
+    position: relative;
+    float: left;    
+}
+
+.aside-section-01 {
+    width: 15%; height: 875px;
+    background: rgb(52, 73, 94);
+    position: relative;
+    float: left;    
+}
+
+#photo-aside-01{
+    width: 60%;
+    height: 60%;
+    margin: 10px 10px 10px 10px;
+    border:solid white 2px;
+    border-radius: 15px;
+}
+
+#photo-aside-02{
+    width: 60%;
+    height: 60%;
+    margin: 10px 10px 10px 10px;
+    border:solid white 2px;
+    border-radius: 15px;
+}
+
+#photo-aside-03{
+    width: 60%;
+    height: 60%;
+    margin: 10px 10px 10px 10px;
+    border:solid white 2px;
+    border-radius: 15px;
+}
+
+h1{
+    font-size: 30px;
+    float:left;
+    position: relative;
+    margin: 0px;    
+    color:azure;
+}
+
+
+footer{
+    width: 100%;
+    height: 80px;
+    background:#17202A ;
+    clear: left;
+}
+
+.section-footer{
+    width:200px;
+    height: 60px;    
+    border-radius: 15px;
+    margin:10px;
+    position: relative;
+    float:right;
+}
+
+.redes-sociales{
+    width:20%;        
+    border-radius: 15px;
+    margin:10px;
+    position: relative;
+    float:right;
+}
+
+h2{
+    font-family:serif;
+    font-size: 30px;   
+}
+    
+*/    
+
+/*MENU 00*/
+    
+/*    
+.section-001{    
+    width:20%;        
+    display: inline-block;    
+    margin:10px
+    
+}
+
+.section-002{
+    width:20%;    
+    display: inline-block;    
+    margin:10px;
+    
+}
+
+.section-003{
+    width:20%;    
+    display: inline-block;    
+    margin:10px;
+}
+
+.section-004{
+    width:20%; 
+    display: inline-block;    
+    margin:10px;
+}
+
+#photo-section-001{
+    width: 100%;    
+    border:solid white;
+    margin:10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+}
+
+#photo-section-002{
+    width: 100%;        
+    border:solid white;
+    margin:10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+}
+
+#photo-section-003{
+    width: 100%; 
+       
+    border:solid white;
+    margin:10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+}
+
+#photo-section-004{
+    width: 100%;        
+    border:solid white;
+    margin:10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+}
+
+
+.button-menu{
+    width:100%;
+    text-align: center;
+    padding:1px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    background: #34495E;
+    border: solid white 3px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 10px rgb(70,70,60,45%);
+}
+*/    
+
+}
